@@ -1,9 +1,7 @@
-<!doctype html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>Corner Store Empire V2.1</title><link rel='stylesheet' href='style.css'></head><body>
-<header><div><b>🏪 Corner Store Empire</b><small id='day'>Day 1</small></div><div class='money' id='money'>$500.00</div></header>
-<main><section class='stats'><span>⭐ <b id='rep'>50</b></span><span>👥 <b id='served'>0</b> served</span><span>💰 <b id='profit'>$0.00</b> profit</span><span>📦 <b id='stockCount'>24</b> items</span></section>
-<section class='game-card'><div class='sign'>YOUR CORNER STORE • V2.1</div><div id='store' class='store'><div class='door'>🚪<small>ENTRANCE</small></div><div class='shelf s1' data-product='Soda'>🥤<small>SODA</small></div><div class='shelf s2' data-product='Chips'>🍟<small>CHIPS</small></div><div class='shelf s3' data-product='Candy'>🍫<small>CANDY</small></div><div class='shelf s4' data-product='Water'>💧<small>WATER</small></div><div class='counter'>🧑‍💼<small>CHECKOUT</small></div><div id='people'></div></div></section>
-<section class='panel'><h3>Store Controls</h3><div class='buttons'><button id='openStoreBtn' class='primary'>▶ OPEN STORE</button><button id='endDayBtn'>🌙 End Day</button></div><div id='status'>Store is closed. Restock and open when ready.</div></section>
-<section class='panel'><h3>Inventory</h3><div id='inventory'></div></section>
-<section class='panel'><h3>Upgrades</h3><div id='upgrades'></div></section>
-<section class='panel'><h3>Activity</h3><div id='log' class='log'></div></section></main>
-<script src='game.js?v=2.1.1'></script></body></html>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Corner Store Empire V3</title><link rel="stylesheet" href="style.css?v=3"></head><body>
+<header><div><b>🏪 Corner Store Empire</b><small id="day">Day 1 • Level 1</small></div><strong id="cash">$500.00</strong></header>
+<main><section class="hud"><span id="profit">💰 $0.00 profit</span><span id="served">👥 0 served</span><span id="rep">⭐ 50</span><span id="stock">📦 24 stock</span></section>
+<section class="gamewrap"><canvas id="game" width="960" height="600"></canvas><div id="toast">Welcome! Move with WASD / arrows. Press E to interact.</div></section>
+<section class="controls"><button id="openBtn">▶ OPEN STORE</button><button id="endBtn">🌙 END DAY</button><button id="hireBtn">👩‍💼 HIRE CASHIER $200</button><button id="deliveryBtn">🚚 ORDER DELIVERY $40</button></section>
+<section class="panel"><h3>How to play</h3><p><b>Move:</b> WASD / Arrow keys. <b>Interact:</b> E or INTERACT. Walk to the stockroom boxes to carry stock, then walk near a shelf and press E to refill it. Run the checkout yourself, or hire a cashier.</p><div class="touch"><div class="dpad"><button data-key="ArrowUp">▲</button><div><button data-key="ArrowLeft">◀</button><button data-key="ArrowDown">▼</button><button data-key="ArrowRight">▶</button></div></div><button id="interact">INTERACT</button></div></section>
+<section class="panel"><h3>Store status</h3><div id="status"></div></section></main><script src="game.js?v=3"></script></body></html>
