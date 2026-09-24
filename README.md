@@ -1,17 +1,11 @@
-# Corner Store Empire — Version 1
+# Corner Store Empire V2
+A mobile-friendly browser tycoon prototype.
 
-A mobile-first convenience-store tycoon prototype.
+## V2 features
+- Animated customers enter, shop, checkout, and leave
+- Inventory and restocking
+- Revenue, profit, reputation, and daily expenses
+- Advertising, shelf capacity, and checkout-speed upgrades
+- Local browser save
 
-## Play
-Open `index.html` in a browser, or upload all files to a GitHub repository and deploy with GitHub Pages, Cloudflare Pages, or Vercel.
-
-## Included
-- Customer simulation
-- Inventory/restocking
-- Revenue, costs and profit
-- Day progression and random expenses
-- Store upgrades
-- Automatic local save
-- Mobile-friendly interface
-
-No build step or dependencies are required.
+Deploy with GitHub Pages from the repository root.
