@@ -1,10 +1,11 @@
-# Corner Store Empire V6
-V6 is a visual overhaul of the browser-based convenience-store tycoon. It keeps the playable V5 systems while adding a more realistic rendered store, human customer/cashier/player sprites, detailed product displays, storefront glass, improved checkout visuals, time-of-day clock, richer fixtures, queues, walking customers, stocking, spills, deliveries, employees, XP and Build Mode.
+# Corner Store Empire V7
+
+A browser-based convenience-store owner simulator. V7 adds a living sales floor, backroom, receiving, checkout, coffee/hot-food, alcohol and tobacco categories, fictional ID-check gameplay, manager delegation, employees, deliveries, restocking, cleaning, live operations, and a daily P&L.
 
 ## Controls
-- WASD / Arrow keys: move
-- E: interact
-- R: rotate selected Build Mode equipment
-- Close store before entering Build Mode
+- WASD / Arrow keys: move owner
+- E: interact with nearby work area
+- Hire a manager and assign tasks to automate operations
+- Age-restricted purchases trigger a fictional ID-check decision
 
-Deploy the four project files at the root of a GitHub Pages repository.
+No build step is required. Deploy the four files to GitHub Pages.
